@@ -1,0 +1,142 @@
+@import 'global';
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: var(--brown);
+  // height:100vh;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+//header
+.main-header{
+  height:100vh;
+  text-align:center;
+  justify-content: center;
+  font-family: 'Oooh Baby';
+
+  .title{
+    position:relative;
+    top:30%;
+
+    h1{
+      font-size:  5em;
+      margin-bottom:-0.1em;
+
+      .fun{
+        color: var(--darkred);
+      }
+    }
+  }
+}
+
+//options
+.content{
+  font-family: 'Poppins', sans-serif;
+  .left-h1{
+    color: #253439;
+    font-size: 40px;
+    font-weight: bolder;
+    padding:2em 0 1em 3em;
+  }
+  .location_preview{
+      padding-top: 2em;
+      padding-bottom: 2em;
+      width:86%;
+      display:flex;
+      justify-content: space-between;
+      margin:0 auto;
+  }
+  .preview{
+      width:23.5%;
+      height:450px;
+      border-radius: 0 25px 25px 25px;
+  }
+  .preview img{
+      width:100%;
+      height: 100%;
+      border-radius: 0 25px 25px 25px;
+  }
+  .preview__details{
+      position: relative;
+      top:-5.8em;
+      border-radius: 0 0 25px 25px;
+      background-color: rgba(37, 52, 57,0.7);
+      color:#fff;
+  }
+  .preview__details__text{
+      display:flex;
+      justify-content: space-around;
+      padding-bottom: 0;
+  }
+  .preview__details__text__top i{
+      font-size: 15px;
+  }
+  .preview__details__text__bottom{
+      margin-top:-.5em;
+      padding-left:2.2em;
+      padding-bottom:.65em;
+      font-size: 18px;
+      font-weight:300;
+  }
+}
+
+//more infos
+.details{
+  font-family: 'Poppins', sans-serif;
+  .wrapper,
+  .infos {
+  width:  100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  .wrapper img {
+    width: 60%;
+    height: auto;
+  }
+  
+  .infos {
+    align-items: flex-start;
+
+    .blue-title{
+      color:var(--blue);
+    }
+  }
+}
+
+.tickets{
+  height:100vh;
+  text-align:center;
+  justify-content: center;
+  font-family: 'Oooh Baby';
+
+  .title{
+    position:relative;
+    top:30%;
+
+    h1{
+      font-size:  5em;
+      margin-bottom:-0.1em;
+
+      .fun{
+        color: var(--darkred);
+      }
+    }
+  }
+
+  button{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    color: var(--redorange);
+  }
+
+}
